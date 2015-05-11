@@ -1,7 +1,7 @@
 {
   "name": "is-android",
   "main": "./src",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Detect Android browsers",
   "license": "MIT",
   "repository": "bendrucker/is-android",
