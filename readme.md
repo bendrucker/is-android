@@ -2,7 +2,6 @@
 
 > Detect Android browsers
 
-
 ## Install
 
 ```
