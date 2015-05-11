@@ -1,6 +1,6 @@
 {
   "name": "is-android",
-  "main": "./src",
+  "main": "./release",
   "version": "1.0.0",
   "description": "Detect Android browsers",
   "license": "MIT",
