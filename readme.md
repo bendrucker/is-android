@@ -12,11 +12,9 @@ $ npm install --save is-android
 ## Usage
 
 ```js
-var isAndroid = require('is-android');
+var isAndroid = require('is-android')
+//=> true/false
 ```
-
-`isAndroid` is a `Boolean`
-
 
 ## License
 

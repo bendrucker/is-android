@@ -1,47 +1,35 @@
 {
   "name": "is-android",
-  "main": "./src",
+  "main": "index.js",
   "version": "1.0.0",
   "description": "Detect Android browsers",
   "license": "MIT",
   "repository": "bendrucker/is-android",
   "author": {
-    "name": "Ben Drucker",
     "email": "bvdrucker@gmail.com",
+    "name": "Ben Drucker",
     "url": "bendrucker.me"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "standard && babel-tape-runner test/*.js"
+    "test": "standard && tape test.js"
   },
   "keywords": [
     "android",
     "browser",
     "detection"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "global": "~4.3.0"
+  },
   "devDependencies": {
-    "babel": "^5.0.0",
-    "babel-tape-runner": "*",
     "proxyquire": "~1.4.0",
-    "publicist": "~4.0.0",
-    "publicist-es5": "~1.0.0",
-    "standard": "bendrucker/standard#babel",
+    "standard": "~4.5.4",
     "tape": "^4.0.0"
   },
-  "publicist": {
-    "builds": {
-      "es5": {
-        "dest": "./release"
-      }
-    }
-  },
-  "standard": {
-    "ignore": [
-      "release/",
-      "lib/"
-    ]
-  }
+  "files": [
+    "index.js"
+  ]
 }
